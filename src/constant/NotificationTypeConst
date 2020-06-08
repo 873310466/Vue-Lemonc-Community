@@ -1,0 +1,13 @@
+const NOTIFY_ARTICLE = {
+  type: 1,
+  description: '文章'
+}
+
+const NOTIFY_COMMENT = {
+  type: 2,
+  description: '评论'
+}
+
+export default {
+  NOTIFY_ARTICLE, NOTIFY_COMMENT
+}

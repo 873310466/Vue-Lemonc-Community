@@ -1,0 +1,20 @@
+const THUMB_UP = {
+  action: 1,
+  description: '点赞了'
+}
+const REPLY_ARTICLE = {
+  action: 2,
+  description: '评论了'
+}
+const REPLY_COMMENT = {
+  action: 3,
+  description: '回复了'
+}
+const COLLECT = {
+  action: 4,
+  description: '收藏了'
+}
+
+export default {
+  THUMB_UP, REPLY_ARTICLE, REPLY_COMMENT, COLLECT
+}
